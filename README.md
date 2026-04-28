@@ -1,18 +1,32 @@
-# React + Vite
+# Custom Hooks - React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Ejercicio práctico sobre creación de custom hooks en React.
 
-Currently, two official plugins are available:
+## ¿Qué hace?
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Implementa un hook personalizado `useFetch` que consume dos APIs externas y renderiza un personaje de cada una:
 
-## React Compiler
+- [PokéAPI](https://pokeapi.co/) → Bulbasaur
+- [Rick and Morty API](https://rickandmortyapi.com/) → Rick Sanchez
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+## Estructura
 
-Note: This will impact Vite dev & build performances.
+```bash
+src/
+├── hooks/
+│   └── useFetch.js
+└── App.jsx
+```
 
-## Expanding the ESLint configuration
+## Instalación
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+npm install
+npm run dev
+```
+
+## Tecnologías
+
+- React
+- Vite
+- Custom Hooks (`useState` + `useEffect`)
