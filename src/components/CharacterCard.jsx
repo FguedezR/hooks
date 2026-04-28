@@ -1,4 +1,4 @@
-function CharacterCard({ name, image }) {
+export default function CharacterCard({ name, image }) {
   return (
     <div>
       <p>{name}</p>
@@ -6,4 +6,3 @@ function CharacterCard({ name, image }) {
     </div>
   );
 }
-export default CharacterCard;
