@@ -14,7 +14,7 @@ Implementa un hook personalizado `useCustomHook` que consume dos APIs externas y
 ```bash
 src/
 ├── hooks/
-│   └── useFetch.js
+│   └── useCustomHook.js
 └── App.jsx
 ```
 
